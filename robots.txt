@@ -1,5 +1,7 @@
 User-agent: *
   Disallow: /config/
-  Disallow: /storage/
+  Disallow: /uploads/
+  Disallow: /stylesheet/
+  Disallow: /javascript/
   Sitemap: https://srscgroups.com/sitemap.xml
   
