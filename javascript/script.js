@@ -14,3 +14,19 @@ $(window).on("scroll", function () {
       });
   }
 });
+
+$(document).ready(function () {
+    $("#menu a").on("click", function (e) {
+        e.preventDefault();
+        let target = $($(this).attr("href"));
+
+        if (target.length) {
+            $("html, body").animate(
+                { scrollTop: target.offset().top - 86 }, 
+                500, 
+                "swing" // Smooth easing
+            );
+        }
+    });
+});
+
