@@ -25,9 +25,9 @@
   --font-base: 'Roboto', 'Open Sans', 'Poppins', sans-serif;
   --font-tiny: 10px;
   --font-xs: 12px; /*9pt*/
-  --font-sm: 15px; /*12pt*/
-  --font-md: 18px; /*14pt*/
-  --font-lg: 53.333px; /*40px*/
+  --font-sm: 16px; /*12pt*/
+  --font-md: 24px; /*18pt*/
+  --font-lg: 42.667px; /*40px*/
 
   /* Spacing */
   --spacing-xs: 4px;
