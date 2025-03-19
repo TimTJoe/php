@@ -1,0 +1,5 @@
+User-agent: *
+  Disallow: /config/
+  Disallow: /storage/
+  Sitemap: https://srscgroups.com/sitemap.xml
+  
