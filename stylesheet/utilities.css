@@ -345,3 +345,7 @@ html {
   scroll-snap-stop: always;
 }
 
+h1 {
+  font-size: var(--font-lg);
+}
+

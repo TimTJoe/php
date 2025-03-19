@@ -122,3 +122,36 @@ button.secondary:hover, a.secondary:hover {
   border-color: var(--white);
 }
 
+/* OUR CLIENTS SECTION STYLES */
+#about-us {
+  display: flex;
+  align-items: flex-start;
+  color: var(--white);
+}
+
+
+#about-us .right::before {
+  content: "";
+  display: block;
+  height: 10px;
+  width: 300px;
+  background-color: black;
+  margin-bottom: var(--spacing-lg);
+}
+
+#about-us .left  {
+  /* border: solid red; */
+  /* height: 100%; */
+}
+#about-us .right {
+  background-color: var(--blue);
+  display: grid;
+  align-content: center;
+  align-self: top;
+  padding: var(--spacing-lg);
+  min-height: 435px;
+  gap: var(--spacing-lg);
+}
+
+
+/* STYLES ENDS */

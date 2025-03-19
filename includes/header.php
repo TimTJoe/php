@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World Website</title>
+    <title>Statiscal and Research Services Consortium - Firm In Liberia</title>
     <link rel="stylesheet" href="stylesheet/style.css">
     <script src="javascript/lib/jquery.js" defer></script>
     <script src="javascript/script.js" defer></script>
