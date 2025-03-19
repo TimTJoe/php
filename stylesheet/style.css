@@ -10,11 +10,13 @@
   height: 86px;
   padding: 0 var(--spacing-lg);
   position: relative;
+  z-index: 100;
 }
 
 #menu {
   display: flex;
   gap: var(--spacing-lg);
+  margin-left: auto;
 }
 
 
@@ -28,8 +30,11 @@
 }
 
 #logo {
-  width: 180px;
-  height: 85px;
+  width: 170px;
+  height: 75px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 #toggle {
@@ -38,18 +43,18 @@
 /* ============= STYLE ENDSS */
 
 /* BANNER STYLES */
-#banner {
+#home {
   display: flex;
   height: calc(var(--sec-sm) - 110px);
   width: calc(100% - 0);
   /* background: linear-gradient(to top right, navy 70%, white 60%); */
 }
 
-#banner > * {
+#home > * {
   flex: 1;
 }
 
-#banner > section {
+#home > section {
   background-color: var(--navy);
   display: grid;
   place-items: bottom;
@@ -60,25 +65,25 @@
   color: var(--white);
 }
 
-#banner > section h1 {
+#home > section h1 {
   font-size: var(--font-lg);
 }
 
-#banner > section p {
+#home > section p {
   font-size: var(--font-md);
 }
 
-#banner > section .row {
+#home > section .row {
   margin-top: var(--spacing-lg);
 }
 
-#banner > .bg-con {
+#home > .bg-con {
   height: 100%;
 }
 
 
 
-#banner > .bg-con img {
+#home > .bg-con img {
   height: 100%;
   width: 100%;
 }
@@ -116,3 +121,4 @@ button.secondary:hover, a.secondary:hover {
   color: var(--white);
   border-color: var(--white);
 }
+

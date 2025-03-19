@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World Website</title>
     <link rel="stylesheet" href="stylesheet/style.css">
-    <script src="javascript/jquery.js" defer></script>
+    <script src="javascript/lib/jquery.js" defer></script>
     <script src="javascript/script.js" defer></script>
 </head>
 <body>
     <nav id="nav">
       <div id="logo">
-        <img src="uploads/images/logo.jpg" alt="">
+        <a href="#home">
+          <img src="uploads/images/logo.jpg" alt="">
+        </a>
       </div>
       <div id="menu">
         <a href="#about-us">Who We Are</a>

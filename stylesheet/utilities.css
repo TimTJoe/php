@@ -59,6 +59,11 @@
   --icon-height: 13.44px;
 }
 
+html {
+  scroll-behavior: smooth;
+
+}
+
 /* Font size classes */
 .font-small {
   font-size: var(--font-sm);
@@ -332,5 +337,11 @@
 }
 .extra-line {
   line-height: 2;
+}
+
+.sized {
+  min-height: var(--sec-sm);
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 

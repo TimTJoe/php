@@ -1,4 +1,4 @@
-<div id="banner">
+<div id="home">
   <section>
     <h1>
     Leading Professional Leadership Globally
