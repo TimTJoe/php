@@ -9,13 +9,19 @@
     <script src="javascript/script.js" defer></script>
 </head>
 <body>
-    <nav>
+    <nav id="nav">
       <div id="logo">
         <img src="uploads/images/logo.jpg" alt="">
       </div>
-      <div class="menu">
-        <a href="./">Home</a>
-        <a href="#section">Section</a>
+      <div id="menu">
+        <a href="#about-us">Who We Are</a>
+        <a href="#services">What We Do</a>
+        <a href="#our-clients">Who We Serve</a>
+        <a href="#trainings">Trainings</a>
+        <a href="#contact-us">Contact Us</a>
       </div>
+      <button class="icon-button" id="toggle">
+        &copy;
+      </button>
     </nav>
 
