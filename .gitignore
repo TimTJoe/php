@@ -1,6 +1,48 @@
-/vendor/
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive configuration files
+config/database.php
+config/*.env
+.env
+
+# Ignore composer dependencies (only if using vendor caching)
+vendor/
+
+# Ignore logs and cache
 storage/logs/
 storage/cache/
-.env
-config/database.php
-/.env
+storage/framework/
+
+# Ignore uploaded files
+uploads/
+public_html/uploads/
+
+# Ignore IDE and editor files
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# Ignore compiled CSS/JS (if using build tools)
+public_html/assets/css/*.map
+public_html/assets/js/*.map
+node_modules/
+
+# Ignore PHPStorm and JetBrains IDE metadata
+*.iml
+*.iws
+*.ipr
+*.phpstorm.meta.php
+
+# Ignore PHPUnit test result files
+phpunit.xml
+phpunit.xml.dist
+coverage/
+tests/_output/
+
+# Ignore security-related files
+security.txt
