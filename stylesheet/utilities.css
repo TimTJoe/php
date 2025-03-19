@@ -14,7 +14,7 @@
   --black: #000000;
   --text-black: #222222;
   --blue: #2962ff;
-  --navy: rgb(4, 4, 63);
+  --navy: #062181;
   --green: #34a853;
   --text-green: #3c963c;
   --yellow: #fbbc04;
@@ -25,7 +25,7 @@
   --font-base: 'Roboto', 'Open Sans', 'Poppins', sans-serif;
   --font-tiny: 10px;
   --font-xs: 12px; /*9pt*/
-  --font-sm: 13.333px; /*10pt*/
+  --font-sm: 15px; /*12pt*/
   --font-md: 18px; /*14pt*/
   --font-lg: 53.333px; /*40px*/
 
