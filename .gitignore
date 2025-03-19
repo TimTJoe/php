@@ -1,0 +1,6 @@
+/vendor/
+storage/logs/
+storage/cache/
+.env
+config/database.php
+/.env
