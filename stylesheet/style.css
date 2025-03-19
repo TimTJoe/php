@@ -154,4 +154,116 @@ button.secondary:hover, a.secondary:hover {
 }
 
 
-/* STYLES ENDS */
+/* STYLES END */
+
+/* SERVICES */
+
+#services {
+  
+}
+
+#services header {
+  text-align: center;
+}
+
+#services header p {
+  max-width: var(--sec-sm);
+  margin: 0 auto;
+  margin-top: var(--spacing-lg);
+}
+
+#services .grid {
+  margin: var(--spacing-lg);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: var(--spacing-lg); /* Adjust spacing between grid items */
+}
+
+#services .grid .cell {
+  height: calc(var(--sec-sm) / 2);
+}
+
+#services .cell {
+  position: relative;
+  padding: var(--spacing-lg);
+  color: var(--white);
+  text-align: center;
+  font-size: var(--font-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#services .cell h3 {
+  transition: opacity 0.3s ease-in-out;
+}
+
+#services .cell span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateY(20px);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  text-align: center;
+  width: 80%;
+}
+
+#services .cell:hover h3 {
+  opacity: 0;
+}
+
+#services .cell:hover span {
+  opacity: 1;
+  transform: translate(-50%, -50%) translateY(0);
+}
+
+/* Background images with overlay */
+#services .cell::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px);
+  z-index: -1;
+}
+
+#services .cell:nth-child(1)::before {
+  background-image: url('../uploads/images/image1.jpg');
+}
+
+#services .cell:nth-child(2)::before {
+  background-image: url('../uploads/images/image2.jpg'); 
+}
+
+#services .cell:nth-child(3)::before {
+  background-image: url('../uploads/images/image3.jpg'); 
+}
+
+#services .cell:nth-child(4)::before {
+  background-image: url('../uploads/images/image4.jpg');
+}
+
+#services .cell::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+#services .cell:hover::before {
+  transform: scale(1.1);
+}
+
+/* STYLES END */
