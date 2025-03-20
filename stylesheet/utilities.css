@@ -17,6 +17,9 @@
   --navy: #062181;
   --green: #34a853;
   --lite-green: #C1E9CF;
+  --darker-green: #00262b;
+  --dark-green:#1f453d;
+  --lite-white: #e1ddd1;
   --yellow: #fbbc04;
   --orange: #ff6600;
   --shadow: rgba(0, 0, 0, 0.1);
@@ -28,6 +31,7 @@
   --font-sm: 16px; /*12pt*/
   --font-md: 24px; /*18pt*/
   --font-lg: 42.667px; /*40px*/
+  --font-xl: 56px;
 
   /* Spacing */
   --spacing-xs: 4px;

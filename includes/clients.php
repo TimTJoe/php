@@ -5,7 +5,7 @@
  </div>
  <div class="right">
   <header>
-    <h1>Client We've Served.</h1>
+    <h1>Our Partners</h1>
   </header>
   <div class="rows">
     <a href="#">
