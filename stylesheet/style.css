@@ -425,3 +425,29 @@ button.ternary:hover {
 }
 
 /* STYLES END */
+
+/* CONTACT STYLES */
+#contact-us {
+  display: flex;
+  align-items: center;
+  background-color: var(--black);
+}
+
+#contact-us > * {
+  flex: 1;
+}
+
+#contact-us .contacts {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  font-size: var(--font-md);
+  color: var(--white);
+}
+
+#contact-us .contacts a {
+  font-size: var(--font-md);
+  color: var(--white);
+}
+/* STYLES END */
