@@ -277,30 +277,48 @@ button.secondary:hover, a.secondary:hover {
   display: grid;
   place-content: center;
   place-items: left;
-  background-color: var(--green);
-  padding-left: var(--spacing-lg);
+  background-color: var(--lite-green);
+  padding: 0 var(--spacing-lg);
 }
 
 #our-clients .right {
+  height: 100%;
+}
+
+#our-clients .right header {
+  padding: 0 var(--spacing-lg);
+}
+
+#our-clients .right header::after {
+  content: "";
+  display: block;
+  height: 10px;
+  width: 50%;
+  background-color: var(--black);
+  margin: var(--spacing-lg) 0;
+}
+
+#our-clients .right .rows {
   padding: 0 var(--spacing-lg);
   display: flex;
   flex-wrap: wrap;
-  height: 100%;
   gap: var(--spacing-lg);
 }
 
-#our-clients .right img {
-  width: 180px;
-  height: 180px;
-  border: solid var(--border-color);
+#our-clients .right .rows a {
+  display: grid;
+  place-items: center;
+  border: 1px solid transparent;
 }
 
-#our-clients .right a {
-  box-shadow: 4px 4px 1px 1px rgba(0, 0, 0, 0.582);
+#our-clients .right .rows a:hover {
+  border-color: var(--blue);
 }
-#our-clients .right a:hover {
-  box-shadow: 4px 4px 1px 1px rgba(0, 0, 0, 0.678);
-  transform: scale(1.098);
+
+#our-clients .right .rows img {
+  width: 120px;
+  height: 120px;
+  /* border: solid var(--border-color); */
 }
 
 /* STYLES END */

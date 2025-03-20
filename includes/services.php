@@ -1,7 +1,7 @@
 <div id="services" class="sized">
   <header>
     <h1>Our Services</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit fuga voluptatibus temporibus quas labore obcaecati praesentium iusto at molestiae, natus aut sunt minus quaerat nobis explicabo, adipisci corrupti reiciendis dolorum?</p>
+    <p class="font-medium">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit fuga voluptatibus temporibus quas labore obcaecati praesentium iusto at molestiae, natus aut sunt minus quaerat nobis explicabo, adipisci corrupti reiciendis dolorum?</p>
   </header>
   <div class="grid">
     <section class="cell">

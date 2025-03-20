@@ -7,4 +7,3 @@
   require_once "./includes/trainings.php";
   require_once "./includes/contact.php";
   require_once "./includes/footer.php";
-  
