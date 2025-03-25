@@ -454,6 +454,22 @@ button.ternary:hover {
   /* border: solid var(--border-color); */
 }
 
+@media only screen and (max-width:700px) {
+  #our-clients {
+    flex-direction: column;
+  }
+
+  #our-clients header {
+    padding: var(--spacing-lg);
+  }
+
+  #our-client p {
+    text-align: center;
+  }
+  
+}
+
+
 /* STYLES END */
 
 /* TRAININGS STYLES */
