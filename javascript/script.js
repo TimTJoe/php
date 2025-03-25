@@ -32,7 +32,9 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $("#open-menu").on("click", function () {
+        $("#menu").addClass("show");
         $("#menu").slideDown();
+
     });
 
     $("#close-menu").on("click", function () {

@@ -66,6 +66,11 @@
     background-color: var(--navy);
     flex-direction: column;
     padding: var(--spacing-lg);
+    display: none;
+  }
+
+  #menu.show {
+    display: flex;
   }
 
   #close-menu, #open-menu {
@@ -605,6 +610,17 @@ button.ternary:hover {
 
 #contact-us .contacts a {
   font-size: var(--font-md);
+}
+
+@media only screen and (max-width:700px) {
+  #contact-us {
+    flex-direction: column;
+  }
+
+  #contact-us .map iframe {
+    min-width: 100% !important;
+    min-height: 100% !important;
+  }
 }
 /* STYLES END */
 
