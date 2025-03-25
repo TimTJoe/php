@@ -372,6 +372,27 @@ button.ternary:hover {
   transform: scale(1.1);
 }
 
+@media only screen and (max-width:700px) {
+  #services .grid {
+    margin: var(--spacing-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg); /* Adjust spacing between grid items */
+  }
+
+  #services header {
+    padding: var(--spacing-lg);
+  }
+  
+  #services header p {
+    max-width: unset;
+    text-align: center;
+  }
+  #services .cell {
+    font-size: var(--font-sm);
+  }
+}
+
 /* STYLES END */
 
 /* OUR CLIENTS STYLES */
