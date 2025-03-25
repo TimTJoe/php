@@ -1,7 +1,6 @@
 <div id="trainings" class="sized">
   <header>
     <h1>Trainings and Courses</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, dicta saepe labore vero incidunt minima nihil laborum magnam rem delectus amet porro iure enim quis quod ad reprehenderit animi. Architecto!</p>
   </header>
   <div class="rows">
     <section class="tile">
@@ -48,7 +47,6 @@
 
   <div class="cta">
     <h1 class="font-huge">Register for a Trainings</h1>
-    <h3>Take your skill to another  level.</h3>
     <button class="ternary">Register Now</button>
   </div>
 </div>
