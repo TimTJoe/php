@@ -37,6 +37,10 @@ $(document).ready(function () {
 
     });
 
+    $("#menu a").on('click', (e) => {
+        $("#menu").fadeOut(300);
+    })
+
     $("#close-menu").on("click", function () {
         $("#menu").slideUp();
     });
