@@ -278,9 +278,9 @@ button.ternary:hover {
 }
 
 #services header p {
-  max-width: var(--sec-sm);
   margin: 0 auto;
   margin-top: var(--spacing-lg);
+  padding: 0 var(--spacing-lg);
 }
 
 #services .grid {
