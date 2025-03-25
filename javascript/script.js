@@ -30,6 +30,14 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    $("#open-menu").on("click", function () {
+        $("#menu").slideDown();
+    });
 
-  
+    $("#close-menu").on("click", function () {
+        $("#menu").slideUp();
+    });
+});
+
 

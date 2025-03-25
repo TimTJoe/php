@@ -16,14 +16,17 @@
         </a>
       </div>
       <div id="menu">
+        <span id="close-menu">
+          <img src="uploads/images/close.svg" alt="">
+        </span>
         <a href="#about-us">Who We Are</a>
         <a href="#services">What We Do</a>
         <a href="#our-clients">Who We Serve</a>
         <a href="#trainings">Trainings</a>
         <a href="#contact-us">Contact Us</a>
       </div>
-      <button class="icon-button" id="toggle">
-        &copy;
-      </button>
+      <span  id="open-menu">
+        <img src="uploads/images/menu.svg" alt="">
+      </span>
     </nav>
 

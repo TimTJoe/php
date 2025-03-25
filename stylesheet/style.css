@@ -37,9 +37,62 @@
   left: 0;
 }
 
-#toggle {
+#close-menu, #open-menu {
   display: none;
 }
+
+@media only screen and (max-width:700px) {
+  
+  #nav {
+    width: 100%;
+    padding: 0;
+    height: auto;
+    /* height: 50px; */
+    padding: var(--spacing-sm);
+  }
+
+  #logo {
+    position: unset;
+    width: calc(170px / 2);
+    height:calc(70px / 2);
+  }
+
+  #menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--navy);
+    flex-direction: column;
+    padding: var(--spacing-lg);
+  }
+
+  #close-menu, #open-menu {
+    cursor: pointer;
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+
+  #open-menu {
+    margin-left: auto;
+  }
+
+  #menu span {
+    position: absolute;
+    top: var(--spacing-md);
+    right: var(--spacing-md);
+    border-radius: var(--round-sm);
+
+  }
+
+  #menu span img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
 /* ============= STYLE ENDSS */
 
 /* BANNER STYLES */
@@ -511,7 +564,4 @@ button.ternary:hover {
   border-top: 1px solid var(--border-color);
   margin-top: var(--spacing-lg);
 }
-
-
-
 /* styles ends */
