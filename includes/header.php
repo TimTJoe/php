@@ -6,6 +6,7 @@
     <title>Statiscal and Research Services Consortium - Firm In Liberia</title>
     <link rel="stylesheet" href="stylesheet/style.css">
     <script src="javascript/lib/jquery.js" defer></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.35"></script>
     <script src="javascript/script.js" defer></script>
 </head>
 <body>

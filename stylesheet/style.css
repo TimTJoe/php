@@ -395,20 +395,27 @@ button.ternary:hover {
   display: flex;
   flex-wrap: wrap;
   gap: var(--spacing-lg);
+  justify-content: space-evenly;
 }
 
-#our-clients .rows img {
-  width: 120px;
-  height: 120px;
+
+
+#our-clients a {
+  width: 180px;
+  height: calc(180px / 1.5);
+  display: grid;
+  place-items: center;
+  background-color: var(--white);
+}
+
+#our-clients a img {
+  /* width: 120px; */
+  height: 100px;
 }
 
 #our-clients a:hover {
   box-shadow: var(--shadow-md);
-  border-radius: var(--round-md);
-  background-color: var(--white);
 }
-
-
 
 @media only screen and (max-width:700px) {
   #our-clients {
@@ -424,7 +431,6 @@ button.ternary:hover {
   }
   
 }
-
 
 /* STYLES END */
 
