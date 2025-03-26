@@ -2,7 +2,7 @@
     <div class="row flex">
         <section class="story">
             <img src="uploads/images/logo.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque adipisci itaque sequi voluptas qui optio provident aliquid perferendis! Velit itaque maiores vel sed laudantium exercitationem quibusdam soluta ex voluptatibus.</p>
+            <p>The Statistical and Research Services Consortium (SRSC) is the foremost provider of research, training, and consultancy services to government and non-governmental organizations in Liberia, and in the international scene.</p>
         </section>
 
         <section class="links">
