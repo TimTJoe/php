@@ -10,7 +10,7 @@
   height: 86px;
   padding: 0 var(--spacing-lg);
   position: relative;
-  z-index: 100;
+  z-index: 1000;
 }
 
 #menu {
@@ -426,13 +426,13 @@ button.ternary:hover {
   #our-clients {
     flex-direction: column;
   }
-
-  #our-clients header {
-    padding: var(--spacing-lg);
+  
+  #our-clients header p {
+    width: unset;
   }
 
-  #our-client p {
-    text-align: center;
+  #our-clients a {
+    width: calc(180px / 2);
   }
   
 }
@@ -545,6 +545,7 @@ button.ternary:hover {
 #trainings .cta h1 {
   line-height: inherit;
   font-size: var(--font-lg);
+  text-align: center;
 }
 }
 
