@@ -164,6 +164,15 @@
 }
 
 @media only screen and (max-width:700px) {
+  .hero section {
+    top: 10%;
+  }
+  .hero section h1 {
+    font-size: var(--font-md);
+  }
+  .hero section p {
+    display: none;
+  }
   #home > section {
     padding: var(--spacing-md);
     height: auto !important;
@@ -284,6 +293,7 @@ button.ternary:hover {
   }
 
   #about-us .right {
+    color: var(--black);
     background-image: url('../uploads/images/lady.jpg');
     background-position: cover;
     background-repeat: no-repeat;
