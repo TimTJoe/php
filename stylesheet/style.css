@@ -371,59 +371,44 @@ button.ternary:hover {
 
 #our-clients {
   display: flex;
-  align-items: stretch;
+  flex-direction: column;
+  background-color: var(--bg-gray);
 }
 
-#our-clients > * {
-  flex: 1;
+#our-clients header {
+  padding: 24px;
+  text-align: center;
 }
 
-#our-clients .left {
-  display: grid;
-  place-content: center;
-  place-items: left;
-  background-color: var(--lite-green);
-  padding: 0 var(--spacing-lg);
+#our-clients h1 {
+  font-size: var(--font-xl);
 }
 
-#our-clients .right {
-  height: 100%;
+#our-clients p {
+  width: 70%;
+  font-size: var(--font-md);
+  margin: 0 auto;
 }
 
-#our-clients .right header {
-  padding: 0 var(--spacing-lg);
-}
-
-#our-clients .right header::after {
-  content: "";
-  display: block;
-  height: 10px;
-  width: 50%;
-  background-color: var(--black);
-  margin: var(--spacing-lg) 0;
-}
-
-#our-clients .right .rows {
-  padding: 0 var(--spacing-lg);
+#our-clients .rows {
+  padding: var(--spacing-lg);
   display: flex;
   flex-wrap: wrap;
   gap: var(--spacing-lg);
 }
 
-#our-clients .right .rows a {
-  display: grid;
-  place-items: center;
-  border: 1px solid transparent;
-}
-
-#our-clients .right .rows a:hover {
-  border-color: var(--blue);
-}
-
-#our-clients .right .rows img {
+#our-clients .rows img {
   width: 120px;
   height: 120px;
 }
+
+#our-clients a:hover {
+  box-shadow: var(--shadow-md);
+  border-radius: var(--round-md);
+  background-color: var(--white);
+}
+
+
 
 @media only screen and (max-width:700px) {
   #our-clients {

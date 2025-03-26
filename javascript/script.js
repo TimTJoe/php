@@ -30,20 +30,39 @@ $(document).ready(function () {
     });
 });
 
-$(document).ready(function () {
-    $("#open-menu").on("click", function () {
-        $("#menu").addClass("show");
-        $("#menu").slideDown();
 
+$(document).ready(function () {
+    function isSmallScreen() {
+        return $(window).width() <= 768; // Adjust the breakpoint as needed
+    }
+
+    $("#open-menu").on("click", function () {
+        if (isSmallScreen()) {
+            $("#menu").addClass("show").slideDown();
+        }
     });
 
-    $("#menu a").on('click', (e) => {
-        $("#menu").fadeOut(300);
-    })
+    $("#menu a").on("click", function () {
+        if (isSmallScreen()) {
+            $("#menu").fadeOut(300);
+        }
+    });
 
     $("#close-menu").on("click", function () {
-        $("#menu").slideUp();
+        if (isSmallScreen()) {
+            $("#menu").slideUp();
+        }
+    });
+
+    // Ensure menu is always visible when resizing back to large screens
+    $(window).on("resize", function () {
+        if (!isSmallScreen()) {
+            $("#menu").show();
+        } else {
+            $("#menu").hide();
+        }
     });
 });
+
 
 

@@ -1,14 +1,9 @@
-<div id="our-clients" class="sized">
- <div class="left">
+<div id="our-clients">
   <header>
-    <h1>Why Us?</h1>
+    <h1>Who We Serve.</h1>
+    <p>We've been committed to providing quality and insightful research to aid government, international and local nongovernmental organizations, civil societies, and private institutions: </p>
   </header>
-  <p class="font-medium padding-top">SRSC was established with the core purpose of providing empirical evidence to inform policy for economic development in Liberia and the Mano River basin. Thus the firm is committed to providing quality and insightful research to aid government, international and local nongovernmental organizations, civil societies, and private institutions in formulating and analyzing policies and providing matrices and empirical findings for effective project management and evaluation. </p>
- </div>
- <div class="right">
-  <header>
-    <h1>Who We Serve</h1>
-  </header>
+
   <div class="rows">
     <a href="https://www.rti.org/" target="_blank">
       <img src="uploads/images/RTI.webp" alt="">
@@ -46,7 +41,5 @@
     <a href="https://www.pelumkenya.net/">
       <img src="uploads/images/pelum.webp" alt="">
     </a>
-  </div>
-
  </div>
 </div>
