@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=public_html/srscgroup
+    - /bin/cp -R * $DEPLOYPATH/
+    - echo "Deployment completed successfully!"
