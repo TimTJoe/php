@@ -355,11 +355,9 @@ button.ternary:hover {
 }
 
 @media only screen and (max-width:700px) {
-  #services .grid {
-    margin: var(--spacing-lg);
-    display: flex;
+  
+  #services .tile {
     flex-direction: column;
-    gap: var(--spacing-lg); /* Adjust spacing between grid items */
   }
 
   #services header {
@@ -408,8 +406,6 @@ button.ternary:hover {
   justify-content: space-evenly;
 }
 
-
-
 #our-clients a {
   width: 180px;
   height: calc(180px / 1.5);
@@ -419,7 +415,6 @@ button.ternary:hover {
 }
 
 #our-clients a img {
-  /* width: 120px; */
   height: 100px;
 }
 
