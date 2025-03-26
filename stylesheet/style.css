@@ -248,24 +248,34 @@ button.ternary:hover {
   display: flex;
   align-items: flex-start;
   color: var(--white);
+  background-color: var(--blue);
+}
+
+#about-us h1 {
+  font-size: var(--font-xl);
+}
+
+#about-us p {
+  font-size: var(--font-md);
+}
+
+#about-us > * {
+  flex: 1;
 }
 
 #about-us .right::before {
   content: "";
   display: block;
-  height: 10px;
+  height: 5px;
   width: 300px;
-  background-color: black;
-  margin-bottom: var(--spacing-lg);
+  background-color: var(--black);
 }
 
 #about-us .right {
-  background-color: var(--blue);
   display: grid;
   align-content: center;
-  align-self: top;
   padding: var(--spacing-lg);
-  min-height: 435px;
+  /* min-height: 435px; */
   gap: var(--spacing-lg);
 }
 
