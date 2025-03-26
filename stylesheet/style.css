@@ -444,6 +444,7 @@ button.ternary:hover {
   padding: var(--spacing-lg);
   color: var(--white);
   text-align: center;
+  border-bottom: solid var(--white);
 }
 
 #trainings > header h1 {
@@ -464,40 +465,38 @@ button.ternary:hover {
   flex: 1;
 }
 
-
 #trainings .rows .tile {
-  position: relative;
-  height: 300px;
-  border: solid rgb(250, 250, 250);
-  overflow: hidden;
-  box-shadow: var(--shadow-md);
+  display: flex;
+  background-color: var(--white);
+  height: 250px;
 }
 
 #trainings .rows .tile  img {
-  width: 100%;
+  width: 300px;
   height: 100%;
 }
 
-#trainings .rows .tile header {
-  position: absolute;
-  bottom: 0;
-  z-index: 70;
-  min-height: 150px;
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.822) 60%, rgba(22, 18, 18, 0.651) 100%);
+#trainings article {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
   padding: var(--spacing-sm);
-  font-size: var(--font-sm);
-  color: var(--white);
+  align-items: flex-start;
 }
 
-#trainings > header p {
-  color: var(--white);
-  max-width: 70%;
-  margin: 0 auto;
-  margin-top: var(--spacing-md);
+#trainings .tile small {
+  padding: 2px 6px;
+  background-color: var(--lite-green);
+  color: var(--black);
+  font-size: var(--font-tiny);
+  font-weight: bold;
+  margin-bottom: var(--spacing-sm);
+}
+#trainings .tile h3 {
+  margin-bottom: var(--spacing-sm);
+}
+#trainings .tile p {
+  font-size: 12px;
+  color: var(--text-gray);
 }
 
 #trainings .cta {

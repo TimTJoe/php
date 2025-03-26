@@ -1,48 +1,33 @@
 <div id="trainings" class="sized">
   <header>
-    <h1>Trainings and Courses</h1>
+    <h1>Our Trainings</h1>
   </header>
   <div class="rows">
+
     <section class="tile">
-      <img src="uploads/images/ladystanding.jpg" alt="">
-      <header>
-        <h3>The Name of the trainings or workshop</h3>
-        <span class="row">
-          <strong>Upcoming</strong> &mdash;
-          <data value="3/20/2025">March 20, 2025</data>
-        </span>
-      </header>
+      <span>
+        <img src="uploads/images/ladystanding.jpg" alt="">
+      </span>
+      <article>
+        <small>Workshop</small>
+        <h3>Data Training & Development Workshop</h3>
+        <p>Duration: 3 Weeks</p>
+        <p>Date: March 29, 2025</p>
+      </article>
     </section>
+    
     <section class="tile">
-      <img src="uploads/images/lolwoman.jpg" alt="">
-      <header>
-        <h3>The Name of the trainings or workshop</h3>
-        <span class="row">
-          <strong>Upcoming</strong> &mdash;
-          <data value="3/20/2025">March 20, 2025</data>
-        </span>
-      </header>
+      <span>
+        <img src="uploads/images/lolwoman.jpg" alt="">
+      </span>
+      <article>
+        <small>Trainings</small>
+        <h3>Service Provider Capacity Strengthening Workshop</h3>
+        <p><strong>Duration:</strong> 3 Weeks</p>
+        <p><strong>Date:</strong> March 29, 2025</p>
+      </article>
     </section>
-    <section class="tile">
-      <img src="uploads/images/3people.jpg" alt="">
-      <header>
-        <h3>The Name of the trainings or workshop</h3>
-        <span class="row">
-          <strong>Upcoming</strong> &mdash;
-          <data value="3/20/2025">March 20, 2025</data>
-        </span>
-      </header>
-    </section>
-    <section class="tile">
-      <img src="uploads/images/setting.jpg" alt="">
-      <header>
-        <h3>The Name of the trainings or workshop</h3>
-        <span class="row">
-          <strong>Upcoming</strong> &mdash;
-          <data value="3/20/2025">March 20, 2025</data>
-        </span>
-      </header>
-    </section>
+
   </div>
 
   <div class="cta">
