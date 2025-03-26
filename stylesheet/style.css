@@ -138,19 +138,27 @@
 
 .hero {
   position: relative;
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  min-height: var(--sec-sm);
+  background-color: var(--navy);
 }
 
 .hero section {
   position: absolute;
-  top: 20%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: grid;
   place-items: center;
   text-align: center;
   gap: var(--spacing-lg);
   color: var(--white);
   width: 70%;
+  margin: 0 auto;
 }
 
 .hero section h1 {

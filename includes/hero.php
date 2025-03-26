@@ -1,6 +1,6 @@
 <div class="hero">
   <video autoplay muted loop >
-    <source src="/uploads/videos/global.mp4" type="video/mp4">
+    <source src="uploads/videos/global.mp4" type="video/mp4">
   </video>
   <section>
     <h1>
